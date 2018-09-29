@@ -1,0 +1,63 @@
+body {
+    font-family: "Lato", sans-serif;
+    overflow-x: hidden;
+    background: #23282b;
+    color: #fff
+} 
+
+a {
+    text-decoration: none;
+    color: #fff
+}
+
+.title {
+    margin-left: 5%
+}
+
+.aboutText { 
+    margin-left: 5%
+}
+
+div.polaroid {
+    width: 30%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+    margin-right: 5%
+}
+
+div.container {
+    margin-right: 2%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 10% 20%;
+}
+
+.containerImage {
+    display: flex;
+    width: 85%;
+    margin-left: 30%;
+    padding: 10px 20px 0 20px;
+    color: #111
+}
+
+@media screen and (max-width:920px) {
+    .containerImage {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 150%;
+        padding: 10px 20px 0 20px;
+        margin-left: 22%;
+    }
+
+    div.container {
+        text-align: center;
+        margin: 0 auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 10% 20%;;
+        overflow-x: hidden
+    }
+}

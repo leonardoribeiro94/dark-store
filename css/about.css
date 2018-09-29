@@ -1,0 +1,20 @@
+body {
+    font-family: "Lato", sans-serif;
+    overflow-x: hidden;
+    background: #23282b;
+    color: #fff
+}
+
+a {
+    text-decoration: none;
+    color: #fff
+}
+
+.title {
+    margin-left: 10%
+}
+
+.aboutText {
+    width: 70%;
+    margin: 0 10%
+}

@@ -1,0 +1,131 @@
+ body {
+     font-family: "Lato", sans-serif;
+     overflow-x: hidden;
+     background: #23282b;
+     color: #fff
+ }
+
+ .sidenav {
+     height: 100%;
+     width: 0;
+     position: fixed;
+     z-index: 1;
+     top: 0;
+     left: 0;
+     background-color: #111;
+     overflow-x: hidden;
+     transition: 0.5s;
+     padding-top: 60px;
+ }
+
+ .sidenav a {
+     padding: 8px 8px 8px 32px;
+     text-decoration: none;
+     font-size: 25px;
+     color: #818181;
+     display: block;
+     transition: 0.3s;
+ }
+
+ .sidenav a:hover {
+     color: #f1f1f1;
+ }
+
+ .sidenav .closebtn {
+     position: absolute;
+     top: 0;
+     right: 25px;
+     font-size: 36px;
+     margin-left: 50px;
+ }
+
+ @media screen and (max-height: 450px) {
+     .sidenav {
+         padding-top: 15px;
+     }
+
+     .sidenav a {
+         font-size: 18px;
+     }
+ }
+
+ .menu {
+     font-size: 30px;
+     cursor: pointer
+ }
+
+ div.polaroid {
+     width: 30%;
+     background-color: white;
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+     margin-bottom: 25px;
+     margin-right: 5%
+ }
+
+ div.container {
+     margin-right: 2%;
+     text-align: center;
+     margin: 0 auto;
+     padding: 10% 20%;
+     color: #111
+ }
+
+ .containerImage {
+     display: flex;
+     /* width: 40%; */
+     padding: 10px 20px 0 20px;
+ }
+
+ .containerImage2 {
+     display: flex;
+     /* width: 40%; */
+     padding: 10px 20px 0 20px;
+ }
+
+ @media screen and (max-height: 450px) {}
+
+ @media screen and (max-width:920px) {
+     body {
+         overflow-x: hidden
+     }
+
+     .containerImage {
+         display: block;
+         margin-left: auto;
+         margin-right: auto;
+         width: 170%;
+         padding: 10px 20px 0 20px;
+         margin-left: 17%;
+     }
+
+     .containerImage2 {
+         display: block;
+         margin-left: auto;
+         margin-right: auto;
+         width: 170%;
+         padding: 10px 20px 0 20px;
+         margin-left: 17%;
+     }
+
+     div.container {
+         text-align: center;
+         margin: 0 auto;
+         display: block;
+         margin-left: auto;
+         margin-right: auto;
+         padding: 10% 20%;
+     }
+ }
+
+ .images {
+     width: 100%;
+     margin-left: 1%;
+ }
+
+ .title {
+     text-align: center;
+ }
+
+ .subTitle {
+     font-size: 20px;
+ }
